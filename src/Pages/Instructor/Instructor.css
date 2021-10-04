@@ -1,0 +1,14 @@
+
+.instructor{
+    background-color: Bisque;
+    border : 2px solid wheat;
+    border-radius: 0 25px;
+    margin: 30px;
+    padding: 10px;
+    font-style: italic;
+    box-shadow: 5px 3px 15px black;
+    font-weight: bolder;
+}
+.country img{
+    width: 200px;
+}

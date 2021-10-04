@@ -1,0 +1,25 @@
+.img{
+    width: 100px;
+    height: 100px;
+}
+.section{
+    background-color: aqua
+}
+.div{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.icon{
+
+    display: flex;
+    justify-content: center;
+}
+.fab{
+    color: blue;
+    margin: 10px;
+
+}
+.fas{
+    color: blue;
+    margin: 10px;
+}

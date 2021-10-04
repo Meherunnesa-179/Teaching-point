@@ -1,0 +1,102 @@
+{
+    "results": [
+    {
+    "gender": "female",
+    "name": "Mrs Judith",
+    "country": "United States",
+    "email": "judith.burton@example.com",
+    "picture":  "https://randomuser.me/api/portraits/women/60.jpg",
+    "course" : "Web Design",
+    "price" : 200
+    },
+{
+    "gender": "female",
+    "name": "Mrs Brittany Johnson",
+    "country": "Ireland",
+    "picture":"https://randomuser.me/api/portraits/women/61.jpg",
+    "course" : "Ethical-Hacking",
+    "price" : 300
+    
+    },
+{
+    "gender": "female",
+    "name": "Mrs Laly",
+    "country": "France",
+    "picture":"https://randomuser.me/api/portraits/women/17.jpg",
+    "course" : "Web Development",
+    "price" : 400
+    },
+{
+    "gender": "female",
+    "name": "Mrs Bendita",
+    "country": "Brazil",
+    "picture": "https://randomuser.me/api/portraits/women/86.jpg",
+    "course" : "Graphics Design",
+    "price" : 200
+    },
+{
+    "gender": "male",
+    "name": "Mr Eric",
+    "country": "United Kingdom",
+    "picture":  "https://randomuser.me/api/portraits/men/11.jpg",
+    "course" : "Spoken English",
+    "price" : 199
+    },
+{
+    "gender": "female",
+    "name": "Mrs Ase Mo",
+    "country": "Norway",
+    "picture":  "https://randomuser.me/api/portraits/women/2.jpg",
+    "course" : "3D Animation",
+    "price" : 200
+    },
+{
+    "gender": "male",
+    "name": "Mr Iftekhar Tuhin",
+    "country": "Bangladesh",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "course" : "Business Mathematics",
+    "price" : 400
+    },
+{
+    "gender": "male",
+    "name": "Mr Lavin",
+    "country": "Netherlands",
+    "picture":  "https://randomuser.me/api/portraits/men/20.jpg",
+    "course" : "Digital Marketing",
+    "price" : 200
+    },
+{
+    "gender": "male",
+    "name": "Mr Jhon",
+    "country": "Netherlands",
+    "picture":  "https://randomuser.me/api/portraits/men/6.jpg",
+    "course" : "Fiver Marketplace",
+    "price" : 100
+    },
+{
+    "gender": "female",
+    "name": "Mrs Pinky",
+    "country": "Bangladesh",
+    "picture":  "https://randomuser.me/api/portraits/women/12.jpg",
+    "course" : "Upwork",
+    "price" : 200
+    },
+{
+    "gender": "male",
+    "name": "Mr Jaxon",
+    "country": "Nepal",
+    "picture":  "https://randomuser.me/api/portraits/men/31.jpg",
+    "course" : "Email - Template",
+    "price" : 200
+    },
+{
+    "gender": "male",
+    "name": "Mr Ayman",
+    "country": "India",
+    "picture":  "https://randomuser.me/api/portraits/men/50.jpg",
+    "course" : "Shopify",
+    "price" : 199
+    }
+    ]
+    }
