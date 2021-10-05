@@ -3,18 +3,8 @@
     height: 50px;
     border-radius: 100%;
 }
-.nav-item > a {
+.navStyle{
     text-decoration: none;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-weight: 600;
-    font-size: larger;
-  }
-  .nav-link{
-     
-      margin: 10px;
-  }
-  li{
-      margin: 20px;
-      text-decoration: none;
-      font-size: x-large;
-  }
+    font-weight: bolder;
+    color : white,
+}

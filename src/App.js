@@ -13,34 +13,38 @@ import Services from './Pages/Services/Services';
 import Error from './Pages/Error/Error'
 import Footer from './Components/Footer/Footer'
 import Courses from './Pages/Courses/Courses';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
     <div>
       <Router>
-        <Navigation></Navigation>
-        <Switch>
-          <Route exact path="/">
-            <Header></Header>
-          </Route>
-          <Route exact path = "/home">
-              <Home></Home>
-          </Route>
-          <Route exact path = "/about">
-            <About></About>
-          </Route>
-          <Route exact path="/services">
-            <Services></Services>
-          </Route>
-          <Route exact path ="/courses">
-            <Courses></Courses>
-          </Route>
-          <Route  path="*">
-            <Error></Error>
-          </Route>
-        </Switch>
+         <Navigation></Navigation>
+            <Switch>
+                 <Route exact path="/">
+                     <Home></Home>
+                </Route>
+                <Route exact path = "/home">
+                      <Home></Home>
+                </Route>
+                <Route exact path = "/about">
+                      <About></About>
+                 </Route>
+                 <Route exact path="/services">
+                      <Services></Services>
+                 </Route>
+                 <Route exact path ="/courses">
+                       <Courses></Courses>
+                 </Route>
+                 <Route exact path ="/contact">
+                        <Contact></Contact>
+                 </Route>
+                 <Route  path="*">
+                        <Error></Error>
+                 </Route>
+             </Switch>
         <Footer></Footer>
-      </Router>
+    </Router>
     </div>
   );
 }

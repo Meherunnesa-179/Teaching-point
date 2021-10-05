@@ -5,40 +5,41 @@ import logo from '../../Images/logo.png'
 import './Navigation.css'
 
 const Navigation = () => {
+  const activeStyle = {
+    fontWeight : "bold",
+    color : "red",
+    background : "white",
+    padding : "10px",
+    borderRadius : "5px",
+    margin : "15px",
+    textDecoration : "none"
+  }
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark top-fixed" variant="dark">
   <Container>
-  <Navbar.Brand href="#home"><img class = "logo" src={logo} alt="" /></Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
-   <li>
-   <NavLink activeClassName="nav-link"  exact to="/">
-                    Home
-                  </NavLink>
-   </li>
-                <li>
-                <NavLink activeClassName="nav-link" to="/about">
-                    About
-                  </NavLink>
-                </li>
-                  <li>
-                  <NavLink activeClassName="nav-link" to="/services">
-                    Services
-                  </NavLink>
-                  </li>
-                <li>
-                <NavLink activeClassName="nav-link" to="/courses">
-                    Courses
-                  </NavLink>
-                </li>
+          <Navbar.Brand href="#home"><img class = "logo" src={logo} alt="" />  Luminous Point</Navbar.Brand>
+         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+         <Navbar.Collapse id="responsive-navbar-nav">
       
-    </Nav>
-    <Nav>
-      <Nav.Link>Contact Us</Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
+        <Nav className = "ms-auto fw-bold navStyle fs-4 ">
+             <Nav.Link>
+                   <NavLink activeStyle={activeStyle} exact to="/">  Home</NavLink>
+             </Nav.Link>
+            <Nav.Link>
+                   <NavLink activeStyle={activeStyle} exact to="/about">About</NavLink>
+             </Nav.Link>
+             <Nav.Link>
+                   <NavLink activeStyle={activeStyle} exact to="/courses">Courses</NavLink>
+             </Nav.Link>
+             <Nav.Link>
+                  <NavLink activeStyle={activeStyle} exact to="/Services">Services</NavLink>
+            </Nav.Link>
+            <Nav.Link>
+                  <NavLink activeStyle={activeStyle} exact to="/contact">Contact us</NavLink>
+             </Nav.Link>  
+      </Nav>
+    </Navbar.Collapse>
   </Container>
 </Navbar>
         </div>
